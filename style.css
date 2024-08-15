@@ -1,0 +1,38 @@
+#textos{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px ;
+    column-gap: 10px;
+    margin-top: 30px;
+}
+.subtitulo{
+    font-weight: bolder;
+    color: black;
+
+}
+.texto{
+    color: grey;
+    font-size: 15px;
+}
+.fotoperro{
+    border-radius: 20px;
+    width: 300px;
+    margin: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.img{
+    background-color: rgb(194, 231, 216);
+    width: 32px;
+    border-radius: 5px;
+}
+#article{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    border-radius: 50px;
+    width: 900px;
+}
